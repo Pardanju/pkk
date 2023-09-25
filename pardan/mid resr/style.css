@@ -1,0 +1,31 @@
+body {
+    font-family Arial, sans-serif,
+    background-color: #000aeff;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blue;(102, 122, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+
+}
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255,v 255);
+    display: flex;
+    justify-content: space-between;/* Ratakan elemen daftar */
+    alight-items: center;/* Tengahkan vertikal elemen dalam dafatar */
+}
